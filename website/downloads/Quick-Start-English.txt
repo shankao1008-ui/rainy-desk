@@ -1,0 +1,41 @@
+RAINY DESK ENGLISH 1.5.0 — PUBLIC BETA
+macOS 13 or later · Intel and Apple Silicon
+
+1. INSTALL ONCE
+Unzip the download and move Rainy Desk English.app to Applications BEFORE opening it. Keep it in that location. Do not run a second copy from Downloads, or run the Chinese edition at the same time.
+
+2. OPEN THE PUBLIC BETA
+This build is not Developer ID signed or notarized by Apple. If macOS says Apple could not verify it, click Done. If you trust the download, open System Settings > Privacy & Security, scroll to Security, and click Open Anyway next to Rainy Desk English. Confirm with your password or Touch ID. Do not disable Gatekeeper or other system security features.
+
+3. ALLOW KEYBOARD SOUNDS
+In Rainy Desk English, click Grant access. In System Settings > Privacy & Security > Input Monitoring, enable Rainy Desk English. If missing, use + to add the app you placed in Applications. You can click Show App in Finder to locate the running copy. Quit and reopen the app after granting access. Its status should change to Allowed.
+
+Open Anyway and Input Monitoring are DIFFERENT permissions: allowing the app to open does not grant keyboard access.
+
+4. CHOOSE YOUR SOUND
+Select Soft Rain, Clear Droplets, Wooden Taps, Soft Keyboard, Marimba or Original Drops. Preview sounds works even before keyboard permission is granted. Adjust Volume to taste.
+
+5. KEEP IT AFTER RESTARTING
+Turn on Launch at login. If approval is requested, click Allow launch at login and finish in System Settings. Sound style, volume, key-hold preference, exclusions and paused state are saved on your Mac. Closing the settings window does not stop sounds. A paused app stays paused after restarting. Quit stops the current session; disable sounds or launch at login for a lasting change.
+
+TROUBLESHOOTING
+- Preview works but typing is silent: check that Enable keyboard sounds is on and Input Monitoring says Allowed.
+- Permission is enabled in macOS but the app still says Not allowed: quit and reopen the installed copy. If you replaced the app, remove its old Input Monitoring entry, add the current installed copy, and reopen it.
+- Preview is silent too: check app volume, system volume and the selected sound output device.
+- Some password fields and secure-input sessions may not produce sounds.
+- Bluetooth headphones can add delay.
+- Only run one copy/edition of Rainy Desk at a time.
+
+PRIVACY
+The app plays sounds locally and works offline. No account is required. It does not save or upload typed text or keystroke histories. Preferences and downloaded sounds are stored locally. The currently held key is tracked briefly to stop its sound on release.
+
+BUILD STATUS
+Universal binary for Intel and Apple Silicon. Apple Silicon has been cross-compiled but not tested on physical Apple Silicon hardware. Windows is not supported. Public-beta security prompts remain until a Developer ID signed and notarized release is available.
+
+
+VERSION 1.5.0 — CUSTOM VOICE
+Select Custom Voice in the app. Recording 1 (中正雲荷 2.m4a) is used for non-alphanumeric keys; recording 2 (中正雲荷.m4a) for physical A–Z and 0–9 keys, including numpad. Shifted digit keys still use recording 2. Modifiers also play in this theme. Fn/media keys depend on events supplied by macOS. New presses restart the voice instead of layering speech. Both recordings are publicly distributed with the owner’s permission. Existing themes and saved preferences remain available.
+
+
+AUTOMATIC SOUND UPDATES
+Install 1.5 once. Leave Automatically download new sounds on. Checks run at launch and every 6 hours while the app runs. Check now is available in Sound library. Downloaded packs appear in the picker without switching your sound or volume, and remain usable offline. App feature/OS compatibility updates still require an app update. No typed content is sent. Only the public sound catalog and WAV files are fetched over HTTPS. Invalid/incomplete downloads keep the old library.

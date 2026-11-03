@@ -1,0 +1,29 @@
+Rainy Desk 1.5.0 — macOS 公開測試版 / Public Beta
+
+支援 macOS 13+，包含 Intel 與 Apple Silicon 執行檔。
+Apple Silicon 已編譯，尚未完成實機測試。
+
+1. 解壓縮後，將 Rainy Desk.app 拖到「應用程式」，再開啟。
+2. 本測試版尚未經 Apple Developer ID 簽署及公證。若系統阻擋，確認來源後，在「系統設定 → 隱私權與安全性」使用系統提供的「仍要打開」。不需要關閉 Gatekeeper 或 SIP。
+3. 在 App 按「前往授權」，於「輸入監控」加入／開啟這份 Rainy Desk.app，再重新開啟 App。
+4. 選擇音色與音量。可按「試聽一段」比較六套音效。
+5. 開啟「開機登入後，繼續使用我的音效」。如果顯示需要批准，按「允許登入啟動…」完成設定。
+
+音色、音量、長按與暫停狀態會保存在這台 Mac。重新開機登入後沿用設定。
+若暫停音效，下次啟動仍會保持暫停。結束 App 只結束本次執行；要長期停止音效，取消「啟用按鍵音效」，或關閉登入啟動。
+關機和登入前沒有音效。安全輸入期間可能暫停。長按約 0.35 秒後持續發聲，放開停止。
+
+如果系統顯示允許，但 App 仍顯示未授權：先結束再重新開啟；若仍失敗，在輸入監控中移除舊項目，再加入目前這份 App。請不要同時執行多份 App。
+
+隱私：音效在本機離線播放，不需要帳號、不保存或上傳输入文字。儲存偏好設定與已下載的音效；目前按住的鍵碼僅短暫用於判斷放開。
+
+English:
+Move Rainy Desk.app to Applications, open it, and grant Input Monitoring permission in System Settings. This public beta is not Developer ID signed or notarized; macOS may require a manual Open Anyway confirmation. Never disable system security protections. Enable the launch-at-login option to restore the same sound and volume after logging in. A paused app remains paused. Each user must grant permission on their own Mac. No account or text logging is required. Playback works offline; automatic sound downloads require an internet connection.
+
+
+v1.5.0 自訂人聲
+在 App 選擇「自訂人聲」。第一段（中正雲荷 2.m4a）用於非英數鍵；第二段（中正雲荷.m4a）用於實體 A–Z 與 0–9（含數字鍵盤），Shift 加數字仍為第二段。人聲模式包含修飾鍵；Fn／媒體鍵需 macOS 提供事件。新按鍵會重新播放人聲，避免多段語音重疊。錄音經提供者同意公開分享。原有音效與偏好仍可使用。
+
+
+自動音效更新
+只需安裝一次 1.5。保持「自動下載新音效」開啟，App 啟動與執行期間每 6 小時檢查；也可按「音效庫 → 立即檢查」。新音效加入選單，不改變原本音色或音量；下載後可離線使用。程式功能／系統相容性更新仍需更新 App。不傳送輸入內容，只透過 HTTPS 取得公開音效目錄與 WAV。下載失敗會保留原音效庫。
