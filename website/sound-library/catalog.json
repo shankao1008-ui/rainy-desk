@@ -3,39 +3,39 @@
   "packs": [
     {
       "id": "community-voice",
-      "version": 1,
+      "version": 2,
       "title": "人聲・線上音效庫",
       "titleEN": "Voice · Online Library",
-      "detail": "你的兩段錄音，可自動取得後續音效更新。",
-      "detailEN": "Your two recordings, delivered through the online sound library.",
+      "detail": "快速打字短版：字母／數字 0.10 秒，其他鍵 0.12 秒。",
+      "detailEN": "Short typing clips: 0.10s for letters/numbers; 0.12s for other keys.",
       "mapping": "voice",
       "sounds": {
         "letter": [
           {
-            "path": "/sound-library/assets/739d076ea380049d0eb224e2f97e9f573b90473b9ddcbf3991a8a3e99404f311.wav",
-            "sha256": "739d076ea380049d0eb224e2f97e9f573b90473b9ddcbf3991a8a3e99404f311",
-            "bytes": 194086
+            "path": "/sound-library/assets/60c298017de07a7bd8b6adebdff3750cacd202416d89af71f325956dbe68aa27.wav",
+            "sha256": "60c298017de07a7bd8b6adebdff3750cacd202416d89af71f325956dbe68aa27",
+            "bytes": 8864
           }
         ],
         "space": [
           {
-            "path": "/sound-library/assets/fa1a23586d4afd2a05d0a13e9feb7286c4033c4297b6cc5d088c2b1138eac1e6.wav",
-            "sha256": "fa1a23586d4afd2a05d0a13e9feb7286c4033c4297b6cc5d088c2b1138eac1e6",
-            "bytes": 242294
+            "path": "/sound-library/assets/f4f580507ea263d1fa51576550f86c9672900a98f277e1c87f43558cf54b23bb.wav",
+            "sha256": "f4f580507ea263d1fa51576550f86c9672900a98f277e1c87f43558cf54b23bb",
+            "bytes": 10628
           }
         ],
         "enter": [
           {
-            "path": "/sound-library/assets/fa1a23586d4afd2a05d0a13e9feb7286c4033c4297b6cc5d088c2b1138eac1e6.wav",
-            "sha256": "fa1a23586d4afd2a05d0a13e9feb7286c4033c4297b6cc5d088c2b1138eac1e6",
-            "bytes": 242294
+            "path": "/sound-library/assets/f4f580507ea263d1fa51576550f86c9672900a98f277e1c87f43558cf54b23bb.wav",
+            "sha256": "f4f580507ea263d1fa51576550f86c9672900a98f277e1c87f43558cf54b23bb",
+            "bytes": 10628
           }
         ],
         "delete": [
           {
-            "path": "/sound-library/assets/fa1a23586d4afd2a05d0a13e9feb7286c4033c4297b6cc5d088c2b1138eac1e6.wav",
-            "sha256": "fa1a23586d4afd2a05d0a13e9feb7286c4033c4297b6cc5d088c2b1138eac1e6",
-            "bytes": 242294
+            "path": "/sound-library/assets/f4f580507ea263d1fa51576550f86c9672900a98f277e1c87f43558cf54b23bb.wav",
+            "sha256": "f4f580507ea263d1fa51576550f86c9672900a98f277e1c87f43558cf54b23bb",
+            "bytes": 10628
           }
         ]
       }
